@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc396d6b-5dae-44d5-919a-8932858c1d44" name="Default Changelist" comment="" />
+    <list default="true" id="cc396d6b-5dae-44d5-919a-8932858c1d44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/oertel/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/oertel/service/MessageService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +27,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -54,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../bacholar_softwareudvikling/gruppe_assignments/si_assignment_1/REST-RMI-SOAP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -113,15 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -312,10 +316,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MessageService" />
         <item itemvalue="HTTP Request.generated-requests#2" />
         <item itemvalue="HTTP Request.All in generated-requests" />
         <item itemvalue="HTTP Request.generated-requests#1" />
-        <item itemvalue="Application.MessageService" />
         <item itemvalue="Application.Message" />
       </list>
     </recent_temporary>
@@ -333,6 +337,8 @@
       <workItem from="1603020298004" duration="2464000" />
       <workItem from="1603031152109" duration="5327000" />
       <workItem from="1603045217341" duration="5561000" />
+      <workItem from="1603106933027" duration="919000" />
+      <workItem from="1603177972129" duration="1937000" />
     </task>
     <servers />
   </component>
