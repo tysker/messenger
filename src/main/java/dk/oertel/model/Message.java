@@ -1,12 +1,11 @@
 package dk.oertel.model;
 
-import jakarta.xml.bind.annotation.XmlAccessType;
-import jakarta.xml.bind.annotation.XmlAccessorType;
-import jakarta.xml.bind.annotation.XmlElement;
-import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.*;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 @XmlRootElement
 public class Message {
@@ -14,6 +13,7 @@ public class Message {
     private String message;
     private Date created;
     private String author;
+    private Map<Long, Comment> comments = new HashMap<>();
 
     // creating a Calendar object
     private Calendar c = Calendar.getInstance();
@@ -59,4 +59,13 @@ public class Message {
         this.author = author;
     }
 
+    // Comment List will be ignored
+    @XmlTransient
+    public Map<Long, Comment> getComments() {
+        return comments;
+    }
+
+    public void setComments(Map<Long, Comment> comments) {
+        this.comments = comments;
+    }
 }
