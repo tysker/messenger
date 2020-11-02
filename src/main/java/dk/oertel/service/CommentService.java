@@ -24,7 +24,7 @@ public class CommentService {
 
     public Comment addComment(long messageId, Comment comment) {
         Map<Long, Comment> comments = messages.get(messageId).getComments();
-        comment.setId(comments.size() + 1);
+        comment.setId(comments.size() + 1L);
         comments.put(comment.getId(), comment);
         return comment;
     }

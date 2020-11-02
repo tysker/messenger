@@ -5,24 +5,24 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class ErrorMessage {
 
-    private String errorMessage;
+    private String error;
     private int errorCode;
     private String documentation;
 
     public ErrorMessage() { }
 
     public ErrorMessage(String errorMessage, int errorCode, String documentation) {
-        this.errorMessage = errorMessage;
+        this.error = errorMessage;
         this.errorCode = errorCode;
         this.documentation = documentation;
     }
 
     public String getErrorMessage() {
-        return errorMessage;
+        return error;
     }
 
     public void setErrorMessage(String errorMessage) {
-        this.errorMessage = errorMessage;
+        this.error = errorMessage;
     }
 
     public int getErrorCode() {

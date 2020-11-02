@@ -8,6 +8,8 @@ import java.util.Map;
 
 public class DatabaseClass {
 
+    private DatabaseClass() { }
+
     /**
      * Contains all messages of the api
      */
