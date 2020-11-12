@@ -1,6 +1,6 @@
 package dk.oertel.resources;
 
-import jakarta.ws.rs.QueryParam;
+import javax.ws.rs.QueryParam;
 
 public class MessageFilterBean {
 

@@ -9,5 +9,8 @@
         <module name="messenger" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="messenger" target="14" />
+    </bytecodeTargetLevel>
   </component>
 </project>

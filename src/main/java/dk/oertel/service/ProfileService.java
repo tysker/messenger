@@ -1,7 +1,6 @@
 package dk.oertel.service;
 
 import dk.oertel.database.DatabaseClass;
-import dk.oertel.model.Message;
 import dk.oertel.model.Profile;
 
 import java.util.ArrayList;

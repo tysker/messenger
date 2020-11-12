@@ -4,7 +4,6 @@ import dk.oertel.database.DatabaseClass;
 import dk.oertel.exception.DataNotFoundException;
 import dk.oertel.model.Message;
 
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class MessageService {

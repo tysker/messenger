@@ -1,9 +1,7 @@
 package dk.oertel.model;
 
 import java.util.Date;
-/**
- * Comments
- */
+
 public class Comment {
     private long id;
     private String message;

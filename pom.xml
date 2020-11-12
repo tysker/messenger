@@ -10,25 +10,48 @@
     <name>messenger</name>
 
     <properties>
-        <jersey.version>3.0.0-M6</jersey.version>
+        <!--Project setup setup-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--Jersey setup-->
+        <jersey.version>2.32</jersey.version>
+        <!--JDK setup-->
+        <maven.compiler.target>14</maven.compiler.target>
+        <maven.compiler.source>14</maven.compiler.source>
+        <!--sonar properties-->
         <sonar.projectKey>tysker_messenger</sonar.projectKey>
         <sonar.organization>tysker</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.13.0</version>
+            </plugin>
+        </plugins>
+    </reporting>
+
     <build>
+        <!--Maven PWD-->
         <finalName>messenger</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.5.1</version>
+                <version>3.8.1</version>
                 <inherited>true</inherited>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.0.0</version>
             </plugin>
         </plugins>
     </build>

@@ -1,12 +1,14 @@
 package dk.oertel.exception;
 
 import dk.oertel.model.ErrorMessage;
-import jakarta.ws.rs.core.Response;
-import jakarta.ws.rs.ext.ExceptionMapper;
-import jakarta.ws.rs.ext.Provider;
+
+import javax.ws.rs.core.Response;
+import javax.ws.rs.ext.ExceptionMapper;
+import javax.ws.rs.ext.Provider;
 
 //This Tag is used so jaxrs knows it can use it
-@Provider
+// shoulnd't be used. it throws all kind of exceptions
+// @Provider
 public class GenericExceptionMapper implements ExceptionMapper<Throwable> {
 
     @Override
